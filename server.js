@@ -7,7 +7,7 @@ const port = process.env.PORT || 8080;
 
 const session = require('express-session');
 const passport = require('passport');
-const passportConfig = require('./passport');         //passport/index.js 로 연결
+const passportConfig = require('./passport');       
 
 const DecoRouter = require('./DB/Deco.js');
 const ProgramRouter = require('./DB/ProgramDB.js');
