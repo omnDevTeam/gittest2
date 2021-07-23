@@ -25,7 +25,7 @@ function Login ({Authenticated}){
 
         <div className='login'>
 
-          <h1> 로그인/로그아웃 페이지</h1>
+          <h1> 로그인/로그아웃 페이지지지</h1>
 
             <form method='post' action='/api/login'>
 
