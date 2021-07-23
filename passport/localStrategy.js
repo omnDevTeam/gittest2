@@ -24,7 +24,7 @@ module.exports = passport => {
                     if(user===undefined){
                         console.log('Cert 점검결과 아이디 혹은 비밀번호가 틀렸습니다.');
                         console.log('localStrategy 에서 조회 실패');
-                        return done(null, false);
+                        return done(null, true);
                     }else{
                         console.log('Cert 점검결과 인증되었습니다.');
                         console.log('localStrategy 에서 username, password 조회 완료');
